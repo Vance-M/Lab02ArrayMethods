@@ -1,7 +1,7 @@
 const findIndexMethod = require("./find-index");
 
 describe('mapMethod function', () => {
-    it('iterates through each item in an array and performs a  map callback on it', () => {
+    it('iterates through each item in an array and finds the first string starting with f callback on it', () => {
 
         const firstStartingF = (item) => {
             if(item.charAt(0).startsWith('f')){

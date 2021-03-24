@@ -4,6 +4,7 @@ describe('mapMethod function', () => {
     it('iterates through each item in an array and performs a  map callback on it', () => {
 
         const addTwo = (item) => {
+            
             const newNumber = item + 2;
             return newNumber;
         }
